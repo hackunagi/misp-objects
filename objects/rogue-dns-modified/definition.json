@@ -1,10 +1,10 @@
 {
   "required": [
-    "rogue-dns-modified"
+    "rogue-dns"
   ],
   "attributes": {
     "timestamp": {
-      "description": "Last time that the rogue DNS value was seen in the wild.",
+      "description": "Last time that the rogue DNS value was seen.",
       "ui-priority": 0,
       "misp-attribute": "datetime",
       "disable_correlation": true
@@ -41,6 +41,6 @@
   "version": 1,
   "description": "Rogue DNS as defined by CERT.br",
   "meta-category": "network",
-  "uuid": "b7e7859b-6872-4fd2-ac49-f66ccb904505",
+  "uuid": "b7e7329b-6372-4ed2-ab49-f35acb804705",
   "name": "rogue-dns"
 }
